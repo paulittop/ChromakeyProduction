@@ -1,0 +1,75 @@
+.main {
+    background-color: #F3F0F0;
+
+    padding: 1px 35px 10px 25px;
+
+    border-radius: 9px;
+
+    font-size: 1.1em;
+
+    line-height: 1.4em;
+
+}
+
+.photo-collage {
+    width: 80%;
+    margin: 5px auto;
+}
+
+.h2 {
+    margin-top: 10px;
+}
+
+.equipment-list {
+    margin-top: 10px;
+}
+
+.slide {
+    border-radius: 9px;
+}
+
+.scheme {
+    margin-top: 45px;
+
+    border-radius: 10px;
+}
+
+.scheme__image {
+    display: block;
+
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+@media all and (max-width: 767px) {
+
+    .main {
+        font-size: 0.7em;
+    }
+
+    .h2 {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .h3 {
+        font-size: 1em;
+        margin: 5px 0;
+    }
+
+    .scheme {
+        padding: 0;
+        margin: 0;
+    }
+
+    .item {
+        margin: 5px 0;
+    }
+
+    .characteristics {
+        padding-left: 20px;
+    }
+
+
+}

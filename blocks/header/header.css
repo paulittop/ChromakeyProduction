@@ -1,0 +1,83 @@
+.logo {
+    margin: 5px 15px;
+}
+
+.h1{
+    margin-top:10px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu__list {
+    width: 100%;
+}
+
+.menu__item {
+    text-align: center;
+
+    font-size: 1.2em;
+
+    width: 20%;
+
+    border-right: 1px solid #575757;
+
+    background-image: url("../../img/movie-tape1.1.svg") !important;
+    background-size: cover;
+
+    white-space: nowrap;
+}
+
+.menu__item:first-child {
+    border-left: 1px solid #575757;
+}
+
+.menu__link {
+    white-space: nowrap;
+}
+
+.menu__list > .active > .menu__link {
+    background-color: transparent !important;
+}
+
+.menu_wrapper {
+    font-size: 1.1em;
+
+    width: 100%;
+    padding: 0;
+}
+
+@media all and (max-width: 997px) {
+
+    .menu {
+        font-size: 0.8em;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+
+    .navbar-toggle {
+        float: none;
+    }
+
+    .menu {
+        width: auto;
+        background-color: #E3DEDB;
+        border: none;
+        margin-left: 10px;;
+
+    }
+
+    .menu__item {
+        width: 130px;
+
+        background-image: none !important;
+        background-color: #F3F0F0;
+
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin: 0 0 5px 15px;
+    }
+}
